@@ -1,0 +1,43 @@
+/*tampilan dekstop*/
+.nama-web{
+  font-family: "Playwrite AU SA", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: skyblue;
+}
+.bungkus{
+    width: 100%;
+    
+    background-color: gray;
+    display: flex;
+}
+.hitam{
+    width: 40%;
+    height: 400px;
+    background-color: coral;
+}
+.oren{
+    width: 60%;
+    height: 600px;
+    background-color: orange;
+}
+/*tampila mobile*/
+@media only screen and (max-width: 600px){
+    .bungkus{
+        display: block;
+    }
+    .hitam{
+        width: 100%;
+    }
+    .oren{
+        width: 100%;
+    }
+    .nama-web{
+        text-align: center;
+    }
+}

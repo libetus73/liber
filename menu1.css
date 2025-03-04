@@ -1,0 +1,28 @@
+#bar-menu{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+li{
+    color: red;
+}
+#menu-daftar{
+    display: none;
+}
+#menu1:hover #daftar-menu{
+    display: block;
+}
+#menu1{
+    background-color: skyblue;
+    color: black;
+    width: 150px;
+    text-align: center;
+}
+#daftar-menu li{
+    color: black;
+    text-align: left;
+    padding: 5px;
+}
+li:hover{
+    background-color: yellow;
+}
